@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BE234D924050BF6DC10227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFE3D45F862A604032FD967 /* Assets.xcassets */; };
+		1061B8AE9AAD32DD31904939 /* AskKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E15206D9F6A4D00E1F9C2 /* AskKey.swift */; };
+		137F318781729A1D4D6C7BAF /* SlipHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCD2AE4C5A4AB6A43091B5 /* SlipHistory.swift */; };
+		1668C954D514E5958F5513D5 /* AskMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD093846E9C3C494CAD6CD32 /* AskMotion.swift */; };
+		2A58EFE1ABE4276692694BF5 /* AskFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145856196695E3346696BB5 /* AskFigures.swift */; };
+		2E9823CBEDAE0BC22D6D3C79 /* AskPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B69CEFD6C6B034721AB453 /* AskPress.swift */; };
+		2EE5D314D1470EE39EC21DB5 /* AskDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1580E373A1E8808BE63EEC /* AskDay.swift */; };
+		340BADE847D1347918E43C9C /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD1A49A95FF0A92D4F86A70 /* OneSignalFramework */; };
+		40739323E25E00970D418C03 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D3953288729384BFDED80 /* Name.swift */; };
+		419D66B5B1DDAF13AE2D4826 /* AskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8678DF4CF029C0ACE191D54E /* AskStore.swift */; };
+		44139C0D2E7A1F8EFFE8A2E6 /* AskRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ADC3E6FCA750705117A2B1 /* AskRoot.swift */; };
+		614EF1D744D8D921DB96DA2F /* AskDeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A9DAD8986544CBB8122B6 /* AskDeskTests.swift */; };
+		619C1CAAFAEF1474D7E4C411 /* AskFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECBD10D86096C077EBBA5DF /* AskFoldTests.swift */; };
+		674E430FA481BF39CA984881 /* AskSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55368205AE8152D3D513C239 /* AskSeed.swift */; };
+		68690949117840819A4EB6FB /* StalkChance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C3B6D1C64BEB16720FE77 /* StalkChance.swift */; };
+		68A641040AA105854FE2DA6B /* AchilleaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B477F6FD687BE1E46883DC /* AchilleaTests.swift */; };
+		79979220EC096E676AE54C06 /* AskStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41309BD537933D98F5FFA2C8 /* AskStoreTests.swift */; };
+		7A8CBF7691FAEADD66B84B04 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4749D7B1682547666169BB1D /* NotificationService.swift */; };
+		82C431F7EBF150D95E157475 /* NameTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C20629CCD5850F9D79922D /* NameTable.swift */; };
+		83A6991E035EB7A905794CCE /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB53D01E3B813AA0337FD6 /* NameCell.swift */; };
+		8403ED887E531529BF1FF140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6210EF50A4564DFB42A26137 /* AppDelegate.swift */; };
+		8543DE8F9A55CA93E0F2A249 /* Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CB8EB4C5CF225F3F6F9FD /* Ask.swift */; };
+		8AB1AC18E1C2AD25B288D512 /* AskInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55F8FA7403E7FEC7045BD0 /* AskInk.swift */; };
+		8F433AFA2E0C869A2EFF9682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E96D7540AE73507D42372E /* ContentView.swift */; };
+		94DC92D9D0C7EFC812C67787 /* AskReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E865B70310B13FA62CD93C /* AskReviewTests.swift */; };
+		968B44A0755864056E47AF1E /* NameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2369FA1253504C471D16E3 /* NameCell.xib */; };
+		A0A1EDF34F170C0793A6BE8F /* AskDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F729BA96708C4C8E49139D /* AskDocument.swift */; };
+		A6AFE00E29626CCB4D8D4683 /* AskArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F64F4C6B680251A1D3B6F6 /* AskArt.swift */; };
+		A93495FFC2BD80EB4FC74D02 /* StalkRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDC9851A2ACB3AF495B146 /* StalkRail.swift */; };
+		AC43F65E777C7C98342D6C09 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192556C696C4BE7243AF503F /* APIConfig.swift */; };
+		AF603866191380604692F748 /* AskVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB8708192CB0B9DE394A7B /* AskVault.swift */; };
+		B27CFC7E1692FE6FD07EF517 /* DecisionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657A1BE42D3F5180A2B883C /* DecisionRecord.swift */; };
+		B66D28FB91734735F88B013F /* Slip.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A141F5A43180BA2A7AB3F /* Slip.swift */; };
+		BE789042832D648C3167FEFC /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 51AD632C3C1C82E1E1BECEAD /* OneSignalExtension */; };
+		C4636B01AA0E79B2CEC8F630 /* AskReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67A1A824787A0475B50850A /* AskReview.swift */; };
+		C46DF870BCAF2164668933FD /* AchilleaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F49E866B3D0D7D9528F03 /* AchilleaApp.swift */; };
+		C57316F4DA1208073390C290 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391689B04E655357C720CFD7 /* FamilyInvariantTests.swift */; };
+		CD2869E7BCF7DB2123C3116C /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EEE953DACD03515D12A9485C /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE8D6E10887E16BFDA008001 /* AskCourier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7211BEC6F5CB5B6F0F7A79 /* AskCourier.swift */; };
+		D1A6C8667BBEE473449351E5 /* AskCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CDE1250A16075E16DEA89 /* AskCopy.swift */; };
+		D8D794D529A5C24D6C00B23D /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 0EC13CBC2480D8D1A63EC568 /* OneSignalInAppMessages */; };
+		E1176D9A8DEEB7408CBB5910 /* AskCourierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628AD308CC1426D5D3DEEC7 /* AskCourierTests.swift */; };
+		E18F4B41C8DD30848D6CD092 /* GageMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E621EA794ED3DFA2932E4824 /* GageMark.swift */; };
+		E33C40B979CF394FD19DE8FF /* AskOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7395405AB8AA07C7C4BC84 /* AskOnboarding.swift */; };
+		ED33984CB1210B2CB5CB3855 /* AskSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37CB960446EA3420B43946 /* AskSettings.swift */; };
+		EECFDE4E356D6B0A3311DBFE /* GageGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9DBE199F4C7DB3411029B /* GageGuide.swift */; };
+		F3FF9570D5389A811C8F6E9E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7DBBE425DB494C67E0FA3474 /* Alamofire */; };
+		F88C56DF918F99179DF136D8 /* Stalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96A4AAEA06ED6DF030FEF6E /* Stalk.swift */; };
+		F9B63DB02F682F12691469B8 /* AskDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893722982DEE202F4305537 /* AskDesk.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E07905770EBEF4C4AA045E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982BB0F147E9FC9CF87091A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E85992F08CD31ED0D82706;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		E0E9E5E678D660D6B75BD9B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982BB0F147E9FC9CF87091A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B99235D342AE354E659DC9B;
+			remoteInfo = Achillea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C48280618F178576EF4C79C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD2869E7BCF7DB2123C3116C /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02E865B70310B13FA62CD93C /* AskReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskReviewTests.swift; sourceTree = "<group>"; };
+		0B55F8FA7403E7FEC7045BD0 /* AskInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskInk.swift; sourceTree = "<group>"; };
+		1145856196695E3346696BB5 /* AskFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskFigures.swift; sourceTree = "<group>"; };
+		14BE59555E6B8678909E93F3 /* Achillea.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Achillea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ADC3E6FCA750705117A2B1 /* AskRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskRoot.swift; sourceTree = "<group>"; };
+		192556C696C4BE7243AF503F /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		20C20629CCD5850F9D79922D /* NameTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTable.swift; sourceTree = "<group>"; };
+		22DCD2AE4C5A4AB6A43091B5 /* SlipHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipHistory.swift; sourceTree = "<group>"; };
+		258E15206D9F6A4D00E1F9C2 /* AskKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskKey.swift; sourceTree = "<group>"; };
+		2E1F49E866B3D0D7D9528F03 /* AchilleaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchilleaApp.swift; sourceTree = "<group>"; };
+		2F7395405AB8AA07C7C4BC84 /* AskOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskOnboarding.swift; sourceTree = "<group>"; };
+		35B5F8B036EB084A5788B46C /* AchilleaTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AchilleaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		391689B04E655357C720CFD7 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		3D1A9DAD8986544CBB8122B6 /* AskDeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskDeskTests.swift; sourceTree = "<group>"; };
+		41309BD537933D98F5FFA2C8 /* AskStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskStoreTests.swift; sourceTree = "<group>"; };
+		4749D7B1682547666169BB1D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		48B477F6FD687BE1E46883DC /* AchilleaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchilleaTests.swift; sourceTree = "<group>"; };
+		4F9D3953288729384BFDED80 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		55368205AE8152D3D513C239 /* AskSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskSeed.swift; sourceTree = "<group>"; };
+		5E7211BEC6F5CB5B6F0F7A79 /* AskCourier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskCourier.swift; sourceTree = "<group>"; };
+		6210EF50A4564DFB42A26137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6893722982DEE202F4305537 /* AskDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskDesk.swift; sourceTree = "<group>"; };
+		6B2369FA1253504C471D16E3 /* NameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameCell.xib; sourceTree = "<group>"; };
+		8678DF4CF029C0ACE191D54E /* AskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskStore.swift; sourceTree = "<group>"; };
+		88E96D7540AE73507D42372E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93F729BA96708C4C8E49139D /* AskDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskDocument.swift; sourceTree = "<group>"; };
+		AC1580E373A1E8808BE63EEC /* AskDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskDay.swift; sourceTree = "<group>"; };
+		B0F64F4C6B680251A1D3B6F6 /* AskArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskArt.swift; sourceTree = "<group>"; };
+		B628AD308CC1426D5D3DEEC7 /* AskCourierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskCourierTests.swift; sourceTree = "<group>"; };
+		B657A1BE42D3F5180A2B883C /* DecisionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionRecord.swift; sourceTree = "<group>"; };
+		BE37CB960446EA3420B43946 /* AskSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskSettings.swift; sourceTree = "<group>"; };
+		C96A4AAEA06ED6DF030FEF6E /* Stalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stalk.swift; sourceTree = "<group>"; };
+		CB1CDE1250A16075E16DEA89 /* AskCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskCopy.swift; sourceTree = "<group>"; };
+		CD093846E9C3C494CAD6CD32 /* AskMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskMotion.swift; sourceTree = "<group>"; };
+		D2CB8708192CB0B9DE394A7B /* AskVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskVault.swift; sourceTree = "<group>"; };
+		D3B69CEFD6C6B034721AB453 /* AskPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskPress.swift; sourceTree = "<group>"; };
+		E2C9DBE199F4C7DB3411029B /* GageGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GageGuide.swift; sourceTree = "<group>"; };
+		E621EA794ED3DFA2932E4824 /* GageMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GageMark.swift; sourceTree = "<group>"; };
+		E67A1A824787A0475B50850A /* AskReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskReview.swift; sourceTree = "<group>"; };
+		E93C3B6D1C64BEB16720FE77 /* StalkChance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StalkChance.swift; sourceTree = "<group>"; };
+		ED0A141F5A43180BA2A7AB3F /* Slip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slip.swift; sourceTree = "<group>"; };
+		EECBD10D86096C077EBBA5DF /* AskFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskFoldTests.swift; sourceTree = "<group>"; };
+		EEE953DACD03515D12A9485C /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFE3D45F862A604032FD967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FDC9851A2ACB3AF495B146 /* StalkRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StalkRail.swift; sourceTree = "<group>"; };
+		F69CB8EB4C5CF225F3F6F9FD /* Ask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ask.swift; sourceTree = "<group>"; };
+		FDDB53D01E3B813AA0337FD6 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0B6DAD3D7C65B164596C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE789042832D648C3167FEFC /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF75A57927E45E4C6A733B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FF9570D5389A811C8F6E9E /* Alamofire in Frameworks */,
+				340BADE847D1347918E43C9C /* OneSignalFramework in Frameworks */,
+				D8D794D529A5C24D6C00B23D /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F682CFA3F27BBBB093A32CB /* Achillea */ = {
+			isa = PBXGroup;
+			children = (
+				2E1F49E866B3D0D7D9528F03 /* AchilleaApp.swift */,
+				192556C696C4BE7243AF503F /* APIConfig.swift */,
+				6210EF50A4564DFB42A26137 /* AppDelegate.swift */,
+				EEFE3D45F862A604032FD967 /* Assets.xcassets */,
+				88E96D7540AE73507D42372E /* ContentView.swift */,
+				5E2540CFE2E9DDC6A616D137 /* Ask */,
+				9BB2EB5EB345FB13E06D8A7E /* DecisionRecord */,
+				2821FB5E05684DA9BEBE0CE8 /* GageMark */,
+				3D1AD530DF2ACA01FA62B6B0 /* Name */,
+				70E03BC766CFCF9C9966A59E /* Slip */,
+				E019C523993B3DD81639216E /* Stalk */,
+			);
+			path = Achillea;
+			sourceTree = "<group>";
+		};
+		23426E9FD8F92EC13643B0DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BE59555E6B8678909E93F3 /* Achillea.app */,
+				35B5F8B036EB084A5788B46C /* AchilleaTests.xctest */,
+				EEE953DACD03515D12A9485C /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2821FB5E05684DA9BEBE0CE8 /* GageMark */ = {
+			isa = PBXGroup;
+			children = (
+				E2C9DBE199F4C7DB3411029B /* GageGuide.swift */,
+				E621EA794ED3DFA2932E4824 /* GageMark.swift */,
+			);
+			path = GageMark;
+			sourceTree = "<group>";
+		};
+		3D1AD530DF2ACA01FA62B6B0 /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				4F9D3953288729384BFDED80 /* Name.swift */,
+				FDDB53D01E3B813AA0337FD6 /* NameCell.swift */,
+				6B2369FA1253504C471D16E3 /* NameCell.xib */,
+				20C20629CCD5850F9D79922D /* NameTable.swift */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
+		461F332B80B50F6470D5819C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4749D7B1682547666169BB1D /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		5E0ED842B5808382C0B7AB3E = {
+			isa = PBXGroup;
+			children = (
+				1F682CFA3F27BBBB093A32CB /* Achillea */,
+				BF4BA765F02E07641FA6B389 /* AchilleaTests */,
+				461F332B80B50F6470D5819C /* OneSignalNotificationServiceExtension */,
+				23426E9FD8F92EC13643B0DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2540CFE2E9DDC6A616D137 /* Ask */ = {
+			isa = PBXGroup;
+			children = (
+				F69CB8EB4C5CF225F3F6F9FD /* Ask.swift */,
+				B0F64F4C6B680251A1D3B6F6 /* AskArt.swift */,
+				CB1CDE1250A16075E16DEA89 /* AskCopy.swift */,
+				5E7211BEC6F5CB5B6F0F7A79 /* AskCourier.swift */,
+				6893722982DEE202F4305537 /* AskDesk.swift */,
+				93F729BA96708C4C8E49139D /* AskDocument.swift */,
+				1145856196695E3346696BB5 /* AskFigures.swift */,
+				0B55F8FA7403E7FEC7045BD0 /* AskInk.swift */,
+				258E15206D9F6A4D00E1F9C2 /* AskKey.swift */,
+				CD093846E9C3C494CAD6CD32 /* AskMotion.swift */,
+				2F7395405AB8AA07C7C4BC84 /* AskOnboarding.swift */,
+				D3B69CEFD6C6B034721AB453 /* AskPress.swift */,
+				E67A1A824787A0475B50850A /* AskReview.swift */,
+				17ADC3E6FCA750705117A2B1 /* AskRoot.swift */,
+				55368205AE8152D3D513C239 /* AskSeed.swift */,
+				BE37CB960446EA3420B43946 /* AskSettings.swift */,
+				8678DF4CF029C0ACE191D54E /* AskStore.swift */,
+				D2CB8708192CB0B9DE394A7B /* AskVault.swift */,
+			);
+			path = Ask;
+			sourceTree = "<group>";
+		};
+		70E03BC766CFCF9C9966A59E /* Slip */ = {
+			isa = PBXGroup;
+			children = (
+				ED0A141F5A43180BA2A7AB3F /* Slip.swift */,
+				22DCD2AE4C5A4AB6A43091B5 /* SlipHistory.swift */,
+			);
+			path = Slip;
+			sourceTree = "<group>";
+		};
+		9BB2EB5EB345FB13E06D8A7E /* DecisionRecord */ = {
+			isa = PBXGroup;
+			children = (
+				AC1580E373A1E8808BE63EEC /* AskDay.swift */,
+				B657A1BE42D3F5180A2B883C /* DecisionRecord.swift */,
+			);
+			path = DecisionRecord;
+			sourceTree = "<group>";
+		};
+		BF4BA765F02E07641FA6B389 /* AchilleaTests */ = {
+			isa = PBXGroup;
+			children = (
+				48B477F6FD687BE1E46883DC /* AchilleaTests.swift */,
+				B628AD308CC1426D5D3DEEC7 /* AskCourierTests.swift */,
+				3D1A9DAD8986544CBB8122B6 /* AskDeskTests.swift */,
+				EECBD10D86096C077EBBA5DF /* AskFoldTests.swift */,
+				02E865B70310B13FA62CD93C /* AskReviewTests.swift */,
+				41309BD537933D98F5FFA2C8 /* AskStoreTests.swift */,
+				391689B04E655357C720CFD7 /* FamilyInvariantTests.swift */,
+			);
+			path = AchilleaTests;
+			sourceTree = "<group>";
+		};
+		E019C523993B3DD81639216E /* Stalk */ = {
+			isa = PBXGroup;
+			children = (
+				C96A4AAEA06ED6DF030FEF6E /* Stalk.swift */,
+				E93C3B6D1C64BEB16720FE77 /* StalkChance.swift */,
+				F2FDC9851A2ACB3AF495B146 /* StalkRail.swift */,
+			);
+			path = Stalk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E9B531AA9E23C73C5EE95A0 /* AchilleaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC288A8BEA5C649A8FA8E1E /* Build configuration list for PBXNativeTarget "AchilleaTests" */;
+			buildPhases = (
+				4E4ABD29036F04E1FB58350D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA481A54B24C4313DD22671A /* PBXTargetDependency */,
+			);
+			name = AchilleaTests;
+			packageProductDependencies = (
+			);
+			productName = AchilleaTests;
+			productReference = 35B5F8B036EB084A5788B46C /* AchilleaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B99235D342AE354E659DC9B /* Achillea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C0A8053C48B49A6B81AA46 /* Build configuration list for PBXNativeTarget "Achillea" */;
+			buildPhases = (
+				4E55D678511040FAAB20EDDF /* Sources */,
+				F934167F6CC7B7D9B8E6C92E /* Resources */,
+				BF75A57927E45E4C6A733B54 /* Frameworks */,
+				8C48280618F178576EF4C79C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC24D770E7852B91536D1510 /* PBXTargetDependency */,
+			);
+			name = Achillea;
+			packageProductDependencies = (
+				7DBBE425DB494C67E0FA3474 /* Alamofire */,
+				1BD1A49A95FF0A92D4F86A70 /* OneSignalFramework */,
+				0EC13CBC2480D8D1A63EC568 /* OneSignalInAppMessages */,
+			);
+			productName = Achillea;
+			productReference = 14BE59555E6B8678909E93F3 /* Achillea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9E85992F08CD31ED0D82706 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6C9A1570D4AA76C4D30D2F /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				BE5514435624D6D1C99DE60A /* Sources */,
+				BE0B6DAD3D7C65B164596C7C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				51AD632C3C1C82E1E1BECEAD /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = EEE953DACD03515D12A9485C /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982BB0F147E9FC9CF87091A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0E9B531AA9E23C73C5EE95A0 = {
+						ProvisioningStyle = Automatic;
+					};
+					7B99235D342AE354E659DC9B = {
+						ProvisioningStyle = Automatic;
+					};
+					F9E85992F08CD31ED0D82706 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03F2150DC94A99D60EF71C5F /* Build configuration list for PBXProject "Achillea" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5E0ED842B5808382C0B7AB3E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AD62E2AD214077C378640CF1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0E795ACBCFD7F039A32A8ED3 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23426E9FD8F92EC13643B0DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B99235D342AE354E659DC9B /* Achillea */,
+				0E9B531AA9E23C73C5EE95A0 /* AchilleaTests */,
+				F9E85992F08CD31ED0D82706 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F934167F6CC7B7D9B8E6C92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BE234D924050BF6DC10227 /* Assets.xcassets in Resources */,
+				968B44A0755864056E47AF1E /* NameCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E4ABD29036F04E1FB58350D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A641040AA105854FE2DA6B /* AchilleaTests.swift in Sources */,
+				E1176D9A8DEEB7408CBB5910 /* AskCourierTests.swift in Sources */,
+				614EF1D744D8D921DB96DA2F /* AskDeskTests.swift in Sources */,
+				619C1CAAFAEF1474D7E4C411 /* AskFoldTests.swift in Sources */,
+				94DC92D9D0C7EFC812C67787 /* AskReviewTests.swift in Sources */,
+				79979220EC096E676AE54C06 /* AskStoreTests.swift in Sources */,
+				C57316F4DA1208073390C290 /* FamilyInvariantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55D678511040FAAB20EDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC43F65E777C7C98342D6C09 /* APIConfig.swift in Sources */,
+				C46DF870BCAF2164668933FD /* AchilleaApp.swift in Sources */,
+				8403ED887E531529BF1FF140 /* AppDelegate.swift in Sources */,
+				8543DE8F9A55CA93E0F2A249 /* Ask.swift in Sources */,
+				A6AFE00E29626CCB4D8D4683 /* AskArt.swift in Sources */,
+				D1A6C8667BBEE473449351E5 /* AskCopy.swift in Sources */,
+				CE8D6E10887E16BFDA008001 /* AskCourier.swift in Sources */,
+				2EE5D314D1470EE39EC21DB5 /* AskDay.swift in Sources */,
+				F9B63DB02F682F12691469B8 /* AskDesk.swift in Sources */,
+				A0A1EDF34F170C0793A6BE8F /* AskDocument.swift in Sources */,
+				2A58EFE1ABE4276692694BF5 /* AskFigures.swift in Sources */,
+				8AB1AC18E1C2AD25B288D512 /* AskInk.swift in Sources */,
+				1061B8AE9AAD32DD31904939 /* AskKey.swift in Sources */,
+				1668C954D514E5958F5513D5 /* AskMotion.swift in Sources */,
+				E33C40B979CF394FD19DE8FF /* AskOnboarding.swift in Sources */,
+				2E9823CBEDAE0BC22D6D3C79 /* AskPress.swift in Sources */,
+				C4636B01AA0E79B2CEC8F630 /* AskReview.swift in Sources */,
+				44139C0D2E7A1F8EFFE8A2E6 /* AskRoot.swift in Sources */,
+				674E430FA481BF39CA984881 /* AskSeed.swift in Sources */,
+				ED33984CB1210B2CB5CB3855 /* AskSettings.swift in Sources */,
+				419D66B5B1DDAF13AE2D4826 /* AskStore.swift in Sources */,
+				AF603866191380604692F748 /* AskVault.swift in Sources */,
+				8F433AFA2E0C869A2EFF9682 /* ContentView.swift in Sources */,
+				B27CFC7E1692FE6FD07EF517 /* DecisionRecord.swift in Sources */,
+				EECFDE4E356D6B0A3311DBFE /* GageGuide.swift in Sources */,
+				E18F4B41C8DD30848D6CD092 /* GageMark.swift in Sources */,
+				40739323E25E00970D418C03 /* Name.swift in Sources */,
+				83A6991E035EB7A905794CCE /* NameCell.swift in Sources */,
+				82C431F7EBF150D95E157475 /* NameTable.swift in Sources */,
+				B66D28FB91734735F88B013F /* Slip.swift in Sources */,
+				137F318781729A1D4D6C7BAF /* SlipHistory.swift in Sources */,
+				F88C56DF918F99179DF136D8 /* Stalk.swift in Sources */,
+				68690949117840819A4EB6FB /* StalkChance.swift in Sources */,
+				A93495FFC2BD80EB4FC74D02 /* StalkRail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5514435624D6D1C99DE60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8CBF7691FAEADD66B84B04 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA481A54B24C4313DD22671A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B99235D342AE354E659DC9B /* Achillea */;
+			targetProxy = E0E9E5E678D660D6B75BD9B2 /* PBXContainerItemProxy */;
+		};
+		FC24D770E7852B91536D1510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E85992F08CD31ED0D82706 /* OneSignalNotificationServiceExtension */;
+			targetProxy = E07905770EBEF4C4AA045E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33746EF744AF4DD8615C41F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.achillea.ask.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Achillea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Achillea";
+			};
+			name = Debug;
+		};
+		834DE75AA52C204DB4EF02BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Achillea.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Achillea-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Achillea;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achillea.ask;
+				PRODUCT_NAME = Achillea;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		993F433070C4658EE505E58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		9CDF7E91269628F8A0080120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Achillea.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Achillea-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Achillea;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achillea.ask;
+				PRODUCT_NAME = Achillea;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3A4BA4C364602D5182DC217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achillea.ask.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1A0019FE8A92ACFB5D4B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		BFCC7DB5FC16D7F1B7815D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achillea.ask.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D870F5DD9A56F6363726EB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.achillea.ask.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Achillea.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Achillea";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F2150DC94A99D60EF71C5F /* Build configuration list for PBXProject "Achillea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993F433070C4658EE505E58A /* Debug */,
+				BB1A0019FE8A92ACFB5D4B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1C0A8053C48B49A6B81AA46 /* Build configuration list for PBXNativeTarget "Achillea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDF7E91269628F8A0080120 /* Debug */,
+				834DE75AA52C204DB4EF02BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EAC288A8BEA5C649A8FA8E1E /* Build configuration list for PBXNativeTarget "AchilleaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33746EF744AF4DD8615C41F3 /* Debug */,
+				D870F5DD9A56F6363726EB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB6C9A1570D4AA76C4D30D2F /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A4BA4C364602D5182DC217 /* Debug */,
+				BFCC7DB5FC16D7F1B7815D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E795ACBCFD7F039A32A8ED3 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		AD62E2AD214077C378640CF1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nf2nbm5m8f-oss/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EC13CBC2480D8D1A63EC568 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E795ACBCFD7F039A32A8ED3 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		1BD1A49A95FF0A92D4F86A70 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E795ACBCFD7F039A32A8ED3 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		51AD632C3C1C82E1E1BECEAD /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E795ACBCFD7F039A32A8ED3 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		7DBBE425DB494C67E0FA3474 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD62E2AD214077C378640CF1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 982BB0F147E9FC9CF87091A1 /* Project object */;
+}

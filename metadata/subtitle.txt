@@ -1,0 +1,1 @@
+Draw one name from a list

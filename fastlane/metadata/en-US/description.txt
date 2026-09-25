@@ -1,0 +1,14 @@
+Achillea is a dark, portrait name-picker for people who need one clear choice from a short list. You type names, optionally set chances or turn on Even chance, lock the list, then Draw picks one name and saves it in History on this device.
+
+• Type two or more names and save them on a list
+• Set a numeric Chance per name, or hide chances with Even chance
+• Even chance for exactly two names so Draw can run without locking
+• Lock names to freeze the list
+• Draw to choose one name by chance and save it in History
+• New list after a pick to reuse the same names
+• History of filed picks by day, with Undo last pick
+• Settings: How Draw picks, Contact, How Draw works, Re-run onboarding, Reset all data
+• Onboarding that can be skipped or re-run
+• Names, locks, and History stay on this device
+
+Portrait only on iPhone and iPad. Dark appearance. Minimum iOS 17.0.

@@ -1,0 +1,17 @@
+At cold launch the system may show the standard iOS notifications permission prompt. There is no custom usage-description string for notifications in the app Info settings. A Camera usage description is present — "This app does not use the camera." — but the native UI never asks for camera access and never uses the camera.
+
+There is no login or accounts, no in-app purchase, no account deletion flow, and no App Tracking Transparency prompt.
+
+Achillea is a dark, portrait name-picker for people who need one clear choice from a short list. You type names, optionally set Chance or turn on Even chance, lock the list when required, then Draw picks one name and saves it in History on this device.
+
+No credentials or demo account are needed. Cold launch shows a full-screen splash image briefly (no text), then on first launch a four-page onboarding cover. Page 1 shows "One honest pick from names you type." and "Not a room spinner. Not a score sheet." with Skip and Continue. Page 2 shows "Lock the list. Then Draw." and "Once locked, names and chances stay put." Page 3 shows "Filed picks stay on this device." and "History keeps each pick. Undo last pick removes the newest one." Page 4 shows "Even chance treats two names the same." and "Chances stay even. Draw can run without a lock." with Begin and no Skip. Skip or Begin opens the main list titled Achillea with headline "Draw picks one name." If empty, enter First name and Second name, then tap Save names. Optionally turn on Even chance (hint: "Both names get the same chance. Draw can run now."), or add further rows with Add a name and Add, set Chance, then tap Lock names when Status is Ready. Tap Draw when Status is Locked, or when Even chance is on with exactly two names. After a pick, Status is Saved; tap New list to continue with the same names. Use the clock control (VoiceOver "Open History") for History and Undo last pick. Use the gear control (VoiceOver "Open Settings") for How Draw picks, Contact, How Draw works, Re-run onboarding, and Reset all data. On Simulator only, a one-time demo may plant Rowan and Sable with Even chance on plus prior History picks; otherwise start from "Type two names."
+
+Names, locks, and History stay on this device. In Settings, Contact opens the support page.
+
+There is no region lock. Dates, times, and numbers follow the device locale.
+
+No licence or regulated-industry paperwork applies. This is a Lifestyle name-picker and is not a regulated product.
+
+The app is a personal log only and gives no recommendations. It does not present health, medical, or product-health information.
+
+The app does not scan barcodes or QR codes.

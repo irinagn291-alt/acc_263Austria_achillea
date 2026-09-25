@@ -1,0 +1,5 @@
+Version 1.0 is the first release of Achillea.
+
+Type names on the list, set Chance or turn on Even chance, Lock names, then Draw to choose one name by chance and save it in History. After a pick, use New list to continue with the same names. History groups filed picks by day and offers Undo last pick.
+
+Includes four-page onboarding (Skip or Begin), Settings with How Draw picks, Contact, How Draw works, Re-run onboarding, and Reset all data. Names, locks, and History stay on this device. Portrait only. Dark appearance. Minimum iOS 17.0.
