@@ -1,4 +1,4 @@
-<!-- gf-brief source=3a615abf2c5b313e85818d974925e2ba9e544b876dc66e01c5cc8dadebfe6d4a written=2026-09-26T01:28:55+03:00 -->
+<!-- gf-brief source=3a615abf2c5b313e85818d974925e2ba9e544b876dc66e01c5cc8dadebfe6d4a written=2026-09-26T01:31:59+03:00 -->
 # Achillea
 ## What it is
 Achillea is a dark, portrait name-picker for people who need one clear choice from a short list. You type names, optionally set chances or turn on even chance, lock the list, then Draw picks one name and saves it in History on this device.
